@@ -1,0 +1,8 @@
+flask
+Flask-SQLAlchemy
+requests
+passlib
+uwsgi
+werkzeug
+flask-mail
+gunicorn
