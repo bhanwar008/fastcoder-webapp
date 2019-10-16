@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/bg_about.jpg') }}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>About Me</h1>
+              <span class="subheading">This is what I do.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+         <p> Fastcoder is an informative website for programmers and computer science enthusiasts. It comprises of C++, Python and Java programs, some coding tricks and other useful resources. Its main feature is that it is easy to use both by admin and users.</p>
+         <p>Only admin can add,delete and edit previous post but he should be logged in into the admin panel.There is option of contact to admin in the home page of website ,if someone send and feedback to admin it directly goes to admin by an email.There are many other features also like connected to social media pages  etc.</p>
+
+        </div>
+      </div>
+    </div>
+
+   {% endblock %}

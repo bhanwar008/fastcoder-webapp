@@ -1,0 +1,21 @@
+{
+  "params":
+  {
+    "local_server":"True",
+    "local_uri": "mysql://root:@localhost/fastcoder",
+    "prod_uri":"mysql://root:@localhost/fastcoder",
+    "fb_url":"https://www.facebook.com/codeboomofficial/",
+    "ins_url":"https://instagram.com/fast_coder",
+    "gh_url": "https://github.com/bhanwar008/fastcoder",
+    "blog_name": "Fast Coder",
+    "tag_line": "Heaven for programmers",
+    "gmail-user":"aadeshrana008@gmail.com",
+    "gmail-password":"Cseb@008",
+    "about_text": "Hi my name is aadesh and I am computer science engineer and I am a good boy",
+    "no_of_posts": 5,
+    "login_image": "login.jpg",
+    "admin_user":"bhanwar1628008@gmail.com",
+    "admin_password": "Rana@008",
+    "upload_location": "C:\\Users\\Aadesh Rana\\PycharmProjects\\web1\\static\\img"
+  }
+}
